@@ -76,15 +76,18 @@ FORMULARIO CONFIRMACION
 ======================================================*/
 
 
+/*======================================================
+FORMULARIO CONFIRMACION
+======================================================*/
+
+
 const URL_SCRIPT = 
-"https://script.google.com/macros/s/AKfycbw_65kN-G90iiJZoKFlf2oCr1_h8EIBHNYopB48QHFA3znY8smUH8xk_FexOcJHKbjO0w/exec";
+"https://script.google.com/macros/s/AKfycbzkssDBl0LZG5OeYcjROZfWTdUHdanFZPdank-8YqUayVd0ZgN7ICA2NgJsGedzwR69/exec";
 
 
 
-
-const formulario =
-document.getElementById(
-"formConfirmacion"
+const formulario = document.getElementById(
+    "formConfirmacion"
 );
 
 
@@ -94,47 +97,81 @@ formulario.addEventListener(
 async function(e){
 
 
-e.preventDefault();
+    e.preventDefault();
 
 
 
-const datos={
+    const datos = {
 
 
-nombre:
-document.getElementById("nombre").value,
+        nombre:
+        document.getElementById("nombre").value,
 
 
-invitados:
-document.getElementById("invitados").value,
+        invitados:
+        document.getElementById("invitados").value,
 
 
-asistencia:
-document.getElementById("asistencia").value,
+        asistencia:
+        document.getElementById("asistencia").value,
 
 
-mensaje:
-document.getElementById("mensaje").value
+        mensaje:
+        document.getElementById("mensaje").value
 
 
-};
+    };
 
 
 
-await fetch(URL_SCRIPT, {
-    method: "POST",
-    mode: "no-cors",
-    body: JSON.stringify(datos)
+    try {
+
+
+        await fetch(
+            URL_SCRIPT,
+            {
+
+                method:"POST",
+
+                mode:"no-cors",
+
+                headers:{
+                    "Content-Type":"text/plain"
+                },
+
+                body:
+                JSON.stringify(datos)
+
+            }
+        );
+
+
+
+        alert(
+            "💕 Gracias por confirmar tu asistencia"
+        );
+
+
+
+        formulario.reset();
+
+
+
+    } catch(error){
+
+
+        console.error(error);
+
+
+        alert(
+            "Ocurrió un error al enviar la confirmación"
+        );
+
+
+    }
+
+
 });
-
-alert("¡Gracias por confirmar tu asistencia! 💕");
-
-formulario.reset();
-
-
-
-});
-
 
 /*======================================================
 lUCIERNADAGAS
