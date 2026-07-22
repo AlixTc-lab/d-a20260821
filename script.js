@@ -69,14 +69,7 @@ setInterval(actualizarContador,1000);
 
 
 
-/*======================================================
-FORMULARIO CONFIRMACION
-======================================================*/
 
-//======================================================
-// CONFIRMACION DE ASISTENCIA
-// CONEXION GOOGLE SHEETS
-//======================================================
 
 /*======================================================
 FORMULARIO CONFIRMACION
@@ -128,25 +121,13 @@ document.getElementById("mensaje").value
 
 
 
-await fetch(
-URL_SCRIPT,
-{
+await fetch(URL_SCRIPT, {
+    method: "POST",
+    mode: "no-cors",
+    body: JSON.stringify(datos)
+});
 
-method:"POST",
-
-body:
-JSON.stringify(datos)
-
-}
-);
-
-
-
-alert(
-"¡Gracias por confirmar tu asistencia 💕!"
-);
-
-
+alert("¡Gracias por confirmar tu asistencia! 💕");
 
 formulario.reset();
 
