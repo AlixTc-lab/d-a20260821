@@ -78,13 +78,21 @@ FORMULARIO CONFIRMACION
 // CONEXION GOOGLE SHEETS
 //======================================================
 
+/*======================================================
+FORMULARIO CONFIRMACION
+======================================================*/
+
 
 const URL_SCRIPT = 
 "https://script.google.com/macros/s/AKfycbw_65kN-G90iiJZoKFlf2oCr1_h8EIBHNYopB48QHFA3znY8smUH8xk_FexOcJHKbjO0w/exec";
 
 
 
-const formulario = document.getElementById("formConfirmacion");
+
+const formulario =
+document.getElementById(
+"formConfirmacion"
+);
 
 
 
@@ -97,7 +105,7 @@ e.preventDefault();
 
 
 
-const datos = {
+const datos={
 
 
 nombre:
@@ -120,16 +128,14 @@ document.getElementById("mensaje").value
 
 
 
-try{
-
-
 await fetch(
 URL_SCRIPT,
 {
 
 method:"POST",
 
-body:JSON.stringify(datos)
+body:
+JSON.stringify(datos)
 
 }
 );
@@ -146,24 +152,8 @@ formulario.reset();
 
 
 
-}
-
-catch(error){
-
-
-console.log(error);
-
-
-alert(
-"No se pudo enviar la confirmación"
-);
-
-
-}
-
-
-
 });
+
 
 /*======================================================
 lUCIERNADAGAS
