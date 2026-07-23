@@ -71,17 +71,16 @@ body{
 
 
 
-        linear-gradient(
+         
+    linear-gradient(
 
-            180deg,
+        135deg,
 
-            #F7FAFC 0%,
+        var(--rosa-claro),
 
-            #FBF8F5 50%,
+        var(--azul-claro)
 
-            #EEF5FA 100%
-
-        );
+    );
 
 
 
@@ -313,6 +312,7 @@ BOTÓN MÚSICA
     max-width:1100px;
 
     margin:auto;
+    
 
     
 
@@ -468,6 +468,17 @@ url("hero2.png");
     padding:120px 20px;
 
     position:relative;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
 }
 
@@ -651,6 +662,17 @@ ITINERARIO
 
 .itinerario{
 
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
     padding:120px 20px;
 
     display:flex;
@@ -856,6 +878,17 @@ LUGAR DEL EVENTO
     flex-direction:column;
 
     align-items:center;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
     
 
@@ -1112,6 +1145,17 @@ PADRES
     padding:120px 20px;
 
     position:relative;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
 }
 
@@ -1333,6 +1377,17 @@ LLUVIA DE SOBRES
     position:relative;
 
     overflow:hidden;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
 }
 
@@ -1557,6 +1612,17 @@ CONFIRMACIÓN DE ASISTENCIA
 .confirmacion{
 
     padding:120px 20px;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
 }
 
@@ -1877,6 +1943,17 @@ QR PARA FOTOS
     display:flex;
 
     justify-content:center;
+     background:
+
+    linear-gradient(
+
+        135deg,
+
+        var(--rosa-claro),
+
+        var(--azul-claro)
+
+    );
 
 }
 
