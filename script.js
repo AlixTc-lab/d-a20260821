@@ -191,3 +191,20 @@ for(let i=0;i<160;i++){
 
     stars.appendChild(s);
 }
+
+
+/*======================================================
+SOBRE
+======================================================*/
+
+const sello = document.querySelector('.sello');
+const sobre = document.querySelector('.sobre');
+const intro = document.getElementById('intro');
+
+sello.addEventListener('click', () => {
+    sobre.classList.add('abrir');
+    
+    setTimeout(() => {
+        intro.classList.add('ocultar');
+    }, 1200); 
+});

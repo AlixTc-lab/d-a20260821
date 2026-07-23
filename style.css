@@ -47,38 +47,37 @@ html{
     scroll-behavior:smooth;
 }
 
-body{
-
-    font-family:"Poppins",sans-serif;
 
 
-   font-family:"Poppins",sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
 
-    background:
-
+    /* Gradientes ajustados con los tonos de la imagen */
+    background: 
+        /* Mancha azulada en la parte superior izquierda */
         radial-gradient(
             circle at top left,
-            rgba(206,223,240,.35),
-            transparent 38%
+            rgba(220, 234, 245, 0.6), /* Usando el Azul Celeste */
+            transparent 50%
         ),
-
+        /* Mancha rosada en la parte inferior derecha */
         radial-gradient(
             circle at bottom right,
-            rgba(233,210,220,.28),
-            transparent 38%
+            rgba(243, 214, 213, 0.6), /* Usando el Rosa Pastel */
+            transparent 50%
         ),
-
+        /* Fondo base suave */
         linear-gradient(
             180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
+            #ffffff 0%,   /* Blanco puro */
+            #f9fbfe 55%,  /* Un toque muy ligero de azul */
+            #f0f4f8 100%  /* Gris azulado muy tenue */
         );
 
-    color:var(--texto);
-
-    overflow-x:hidden;
-
+    color: var(--texto);
+    overflow-x: hidden;
+    /* Asegura que el fondo cubra toda la pantalla */
+    min-height: 100vh;
 }
 
 
@@ -107,13 +106,12 @@ BOTÓN MÚSICA
 
     font-size:24px;
     color:#fff;
-
-    background:   linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
     box-shadow:
         0 15px 35px rgba(143,180,216,.35);
@@ -127,11 +125,7 @@ BOTÓN MÚSICA
 
     transform:translateY(-4px) scale(1.08);
 
-    background:linear-gradient(
-        135deg,
-        var(--rosa-fuerte),
-        var(--azul-fuerte)
-    );
+     background-color: #576b8a;
 
     box-shadow:
         0 20px 45px rgba(223,164,181,.30);
@@ -154,7 +148,7 @@ BOTÓN MÚSICA
 
     overflow:hidden;
 
-    background-image:url("hero2.png");
+    background-image:url("hero.png");
      
     background-size:cover;
     background-position:center;
@@ -459,14 +453,12 @@ url("hero.png");
     padding:120px 20px;
 
     position:relative;
-     background:
-
-    linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+   background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 }
 
@@ -650,14 +642,12 @@ ITINERARIO
 
 .itinerario{
 
-     background:
-
-      linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
     padding:120px 20px;
 
     display:flex;
@@ -863,14 +853,12 @@ LUGAR DEL EVENTO
     flex-direction:column;
 
     align-items:center;
-     background:
-
-      linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+    background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
     
 
@@ -1087,12 +1075,7 @@ url("hero.png");
 
 
 
-    background:l   linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+     background-color: #576b8a;
 
     box-shadow:
     0 15px 30px rgba(143,180,216,.25);
@@ -1127,14 +1110,12 @@ PADRES
     padding:120px 20px;
 
     position:relative;
-     background:
-
-       linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+    background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);;
 
 }
 
@@ -1356,14 +1337,12 @@ LLUVIA DE SOBRES
     position:relative;
 
     overflow:hidden;
-     background:
-
-      linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+     background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 }
 
@@ -1589,14 +1568,12 @@ CONFIRMACIÓN DE ASISTENCIA
 .confirmacion{
 
     padding:120px 20px;
-     background:
-
-       linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+    background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 }
 
@@ -1918,14 +1895,14 @@ QR PARA FOTOS
     display:flex;
 
     justify-content:center;
-     background:
+    
 
-      linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+   background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 }
 
@@ -2164,7 +2141,7 @@ url("hero.png");
 
 
     margin-top:25px;
-
+   background-color: #576b8a;
 
 }
 
@@ -2218,15 +2195,12 @@ CIERRE FINAL
 
 
 
-    background:
-
-      linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
-
+    background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 }
 
@@ -2612,14 +2586,12 @@ FOOTER
 
 
 
-    background:
-
-     linear-gradient(
-            180deg,
-            #F5F1EB 0%,
-            #EFE8DF 55%,
-            #E8DFD3 100%
-        );
+   background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
 
 
 
@@ -3480,4 +3452,95 @@ Responsive   confirmacion
     100%{
         transform: translateY(-120vh);
     }
+}
+
+
+
+
+/*======================================================
+INTRO SOBRE DE BIENVENIDA
+======================================================*/
+#intro {
+    position: fixed;
+    inset: 0;
+      background: linear-gradient(
+    180deg,
+    #ffffff 0%,    /* Blanco puro para el inicio */
+    #f2f7fb 55%,   /* Un azul muy, muy claro (casi blanco) */
+    #e9f2f9 100%   /* Un tono apenas más marcado del azul cielo */
+);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: 1s ease;
+}
+
+.sobre {
+    position: relative;
+    width: 340px;
+    height: 230px; /* Ajustado ligeramente */
+    perspective: 1000px;
+    animation: entradaSobre 1.2s ease;
+}
+
+/* Cuerpo del sobre */
+.sobre::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(145deg, #ffffff, #fdf6f7); /* Blanco a rosa casi imperceptible */
+    box-shadow: 0 30px 60px rgba(180, 100, 100, 0.15);
+   
+    border-radius: 10px;
+  
+    z-index: 1;
+}
+
+
+
+
+
+.tapa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f7e3e3, #e8c6c6);
+    clip-path: polygon(0 0, 100% 0, 50% 55%); /* Ajuste de ángulo */
+    transform-origin: top;
+    transition: 1.2s ease;
+    z-index: 5;
+}
+
+/* ESTILO DEL SELLO (TÉCNICA DE FONDO) */
+.sello {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    
+    /* Aquí cargamos la imagen como fondo */
+    background: url('sello.png') center/cover no-repeat;
+    
+    cursor: pointer;
+    transition: .4s;
+    /* Filtro para que resalte más */
+    filter: drop-shadow(0 8px 15px rgba(0,0,0,.35));
+}
+
+.sello:hover { transform: translate(-50%, -50%) scale(1.08); }
+
+/* EFECTOS DE APERTURA */
+.sobre.abrir .tapa { transform: rotateX(180deg); }
+
+.sobre.abrir ~ .sello { transform: translate(-50%, -50%) scale(0.8); opacity: 0; pointer-events: none; }
+
+#intro.ocultar { opacity: 0; visibility: hidden; }
+
+@keyframes entradaSobre {
+    from { opacity: 0; transform: translateY(40px) scale(.9); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
 }
