@@ -3565,25 +3565,6 @@ CODIGO DE VESTIMENTA
 
 
 
-.vestimenta::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:350px;
-
-    height:350px;
-
-    background:var(--vino);
-
-    opacity:.25;
-
-    filter:blur(90px);
-
-    border-radius:50%;
-
-}
 
 
 
@@ -3601,10 +3582,7 @@ CODIGO DE VESTIMENTA
 
 
     background:
-        linear-gradient(
-            rgba(248,244,236,.45),
-            rgba(248,244,236,.45)
-        ),
+       
         url("hero.png");
 
 
@@ -3613,13 +3591,13 @@ CODIGO DE VESTIMENTA
     background-position:center;
 
 
-    backdrop-filter:blur(20px);
+    
 
 
     border-radius:45px;
 
 
-    box-shadow:var(--shadow);
+   
 
 
     border:1px solid rgba(255,255,255,.8);
@@ -3657,39 +3635,17 @@ CODIGO DE VESTIMENTA
     color:white;
 
 
-    background:linear-gradient(
-
-        135deg,
-
-        var(--vino),
-
-        var(--gold)
-
-    );
+ 
 
 
-    box-shadow:
-    0 10px 25px rgba(109,26,54,.25);
+    
 
 
 }
 
 
 
-/* SUBTITULO */
 
-
-.vestimenta-card .subtitulo{
-
-    display:block;
-
-    margin-top:35px;
-
-    letter-spacing:5px;
-
-    color:var(--vino);
-
-}
 
 
 
@@ -3718,10 +3674,10 @@ CODIGO DE VESTIMENTA
     padding:15px 35px;
 
 
-    background:rgba(248,244,236,.75);
+    background:#fff;
 
 
-    backdrop-filter:blur(8px);
+
 
 
     border-radius:30px;
@@ -3730,8 +3686,7 @@ CODIGO DE VESTIMENTA
     border:1px solid rgba(199,164,106,.35);
 
 
-    box-shadow:
-    0 10px 30px rgba(109,26,54,.12);
+   
 
 
 }
@@ -3762,10 +3717,10 @@ CODIGO DE VESTIMENTA
     font-size:17px;
 
 
-    background:rgba(248,244,236,.75);
+    background: #fff;;
 
 
-    backdrop-filter:blur(8px);
+   
 
 
     border-radius:25px;
@@ -3804,10 +3759,10 @@ CODIGO DE VESTIMENTA
     padding:30px;
 
 
-    background:rgba(248,244,236,.65);
+    background:#fff;;
 
 
-    backdrop-filter:blur(8px);
+   
 
 
     border-radius:35px;
@@ -3851,9 +3806,13 @@ CODIGO DE VESTIMENTA
 .vestimenta-item p{
 
 
-    color:var(--gris);
+    color:var(--texto);
 
-    line-height:1.8;
+    line-height:1.9;
+
+    font-size:16px;
+
+    margin-bottom:18px;
 
 }
 
@@ -3865,7 +3824,7 @@ CODIGO DE VESTIMENTA
 
     margin-top:35px;
 
-    color:var(--vino);
+    color:var(--dorado);
 
     font-size:25px;
 
