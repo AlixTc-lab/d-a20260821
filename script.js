@@ -30,7 +30,7 @@ btn.addEventListener("click", () => {
 2. CUENTA REGRESIVA
 ======================================================*/
 
-const fechaEvento = new Date("May 15, 2027 17:00:00").getTime();
+const fechaEvento = new Date("August 21, 2026 17:00:00").getTime();
 
 function actualizarContador(){
 
