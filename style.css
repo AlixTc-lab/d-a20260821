@@ -52,40 +52,30 @@ body{
     font-family:"Poppins",sans-serif;
 
 
-    background:
+   font-family:"Poppins",sans-serif;
 
+    background:
 
         radial-gradient(
             circle at top left,
-            rgba(220,239,250,.75) 0%,
+            rgba(206,223,240,.35),
             transparent 38%
         ),
 
-
-
         radial-gradient(
             circle at bottom right,
-            rgba(245,232,220,.65) 0%,
-            transparent 40%
+            rgba(233,210,220,.28),
+            transparent 38%
         ),
 
-
-
-         
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
-
-
+        linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
     color:var(--texto);
-
 
     overflow-x:hidden;
 
@@ -118,11 +108,12 @@ BOTÓN MÚSICA
     font-size:24px;
     color:#fff;
 
-    background:linear-gradient(
-        135deg,
-        var(--azul-fuerte),
-        var(--azul)
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
     box-shadow:
         0 15px 35px rgba(143,180,216,.35);
@@ -163,7 +154,7 @@ BOTÓN MÚSICA
 
     overflow:hidden;
 
-    background-image:url("hero8.png");
+    background-image:url("hero2.png");
      
     background-size:cover;
     background-position:center;
@@ -373,7 +364,7 @@ BOTÓN MÚSICA
      background:
  
 
-url("hero2.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -471,14 +462,11 @@ url("hero2.png");
      background:
 
     linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 }
 
@@ -664,15 +652,12 @@ ITINERARIO
 
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+      linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
     padding:120px 20px;
 
     display:flex;
@@ -727,7 +712,7 @@ ITINERARIO
    background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -880,15 +865,12 @@ LUGAR DEL EVENTO
     align-items:center;
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+      linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
     
 
@@ -909,7 +891,7 @@ LUGAR DEL EVENTO
      background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1105,12 +1087,12 @@ url("letra3.png");
 
 
 
-    background:linear-gradient(
-        135deg,
-        var(--azul-fuerte),
-        var(--rosa-fuerte)
-    );
-
+    background:l   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
     box-shadow:
     0 15px 30px rgba(143,180,216,.25);
@@ -1147,15 +1129,12 @@ PADRES
     position:relative;
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+       linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 }
 
@@ -1182,7 +1161,7 @@ PADRES
    background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1379,15 +1358,12 @@ LLUVIA DE SOBRES
     overflow:hidden;
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+      linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 }
 
@@ -1441,7 +1417,7 @@ LLUVIA DE SOBRES
      background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1492,11 +1468,12 @@ url("letra3.png");
     color:white;
 
 
-    background:linear-gradient(
-        135deg,
-        var(--rosa),
-        var(--azul-claro)
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
     border:1px solid rgba(216,193,154,.45);
@@ -1614,15 +1591,12 @@ CONFIRMACIÓN DE ASISTENCIA
     padding:120px 20px;
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+       linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 }
 
@@ -1653,7 +1627,7 @@ CONFIRMACIÓN DE ASISTENCIA
      background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1722,11 +1696,12 @@ url("letra3.png");
     font-size:38px;
 
 
-    background:linear-gradient(
-        135deg,
-        var(--rosa),
-        var(--azul-claro)
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
     border:1px solid rgba(216,193,154,.40);
@@ -1798,7 +1773,7 @@ url("letra3.png");
      background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1945,15 +1920,12 @@ QR PARA FOTOS
     justify-content:center;
      background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+      linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 }
 
@@ -1977,7 +1949,7 @@ QR PARA FOTOS
     background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -2030,11 +2002,12 @@ url("letra3.png");
     font-size:40px;
 
 
-    background:linear-gradient(
-        135deg,
-        var(--rosa),
-        var(--azul-claro)
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
     border:1px solid rgba(216,193,154,.40);
@@ -2247,15 +2220,12 @@ CIERRE FINAL
 
     background:
 
-    linear-gradient(
-
-        135deg,
-
-        var(--rosa-claro),
-
-        var(--azul-claro)
-
-    );
+      linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
 }
@@ -2289,7 +2259,7 @@ CIERRE FINAL
     background:
  
 
-url("letra3.png");
+url("hero.png");
  background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -2374,15 +2344,12 @@ url("letra3.png");
 
 
 
-    background:linear-gradient(
-
-        135deg,
-
-        var(--rosa-fuerte),
-
-        var(--azul-fuerte)
-
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
 
@@ -2575,15 +2542,12 @@ url("letra3.png");
 
 
 
-    background:linear-gradient(
-
-        135deg,
-
-        var(--rosa),
-
-        var(--azul-claro)
-
-    );
+    background:   linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
 
@@ -2650,15 +2614,12 @@ FOOTER
 
     background:
 
-    linear-gradient(
-
-        180deg,
-
-        var(--azul-claro),
-
-        var(--rosa-claro)
-
-    );
+     linear-gradient(
+            180deg,
+            #F5F1EB 0%,
+            #EFE8DF 55%,
+            #E8DFD3 100%
+        );
 
 
 
