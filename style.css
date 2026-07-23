@@ -210,7 +210,7 @@ background: linear-gradient(
 }
 .hero h1{
 
-    font-family:"Great Vibes",cursive;
+   font-family: "Ephesis", cursive;
 
     font-size:clamp(4rem,10vw,8rem);
 
