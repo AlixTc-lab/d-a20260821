@@ -148,7 +148,7 @@ background: linear-gradient(
 
     overflow:hidden;
 
-    background-image:url("hero.png");
+    background-image:url("INI2.png");
      
     background-size:cover;
     background-position:center;
@@ -3543,4 +3543,443 @@ INTRO SOBRE DE BIENVENIDA
 @keyframes entradaSobre {
     from { opacity: 0; transform: translateY(40px) scale(.9); }
     to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+
+/*======================================================
+CODIGO DE VESTIMENTA
+======================================================*/
+
+
+.vestimenta{
+
+    padding:120px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    position:relative;
+
+}
+
+
+
+.vestimenta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+
+    height:350px;
+
+    background:var(--vino);
+
+    opacity:.25;
+
+    filter:blur(90px);
+
+    border-radius:50%;
+
+}
+
+
+
+.vestimenta-card{
+
+    position:relative;
+
+    max-width:850px;
+
+    width:100%;
+
+    text-align:center;
+
+    padding:70px 50px;
+
+
+    background:
+        linear-gradient(
+            rgba(248,244,236,.45),
+            rgba(248,244,236,.45)
+        ),
+        url("hero.png");
+
+
+    background-size:cover;
+
+    background-position:center;
+
+
+    backdrop-filter:blur(20px);
+
+
+    border-radius:45px;
+
+
+    box-shadow:var(--shadow);
+
+
+    border:1px solid rgba(255,255,255,.8);
+
+
+}
+
+
+
+/* ICONO */
+
+.vestimenta-icono{
+
+    width:90px;
+
+    height:90px;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    margin:auto;
+
+
+    border-radius:50%;
+
+
+    font-size:45px;
+
+
+    color:white;
+
+
+    background:linear-gradient(
+
+        135deg,
+
+        var(--vino),
+
+        var(--gold)
+
+    );
+
+
+    box-shadow:
+    0 10px 25px rgba(109,26,54,.25);
+
+
+}
+
+
+
+/* SUBTITULO */
+
+
+.vestimenta-card .subtitulo{
+
+    display:block;
+
+    margin-top:35px;
+
+    letter-spacing:5px;
+
+    color:var(--vino);
+
+}
+
+
+
+
+/* TITULO */
+
+
+.vestimenta-card h2{
+
+
+    margin:15px 0 25px;
+
+
+    font-family:"Cormorant Garamond",serif;
+
+
+    font-size:60px;
+
+
+    color:var(--titulo);
+
+
+    display:inline-block;
+
+
+    padding:15px 35px;
+
+
+    background:rgba(248,244,236,.75);
+
+
+    backdrop-filter:blur(8px);
+
+
+    border-radius:30px;
+
+
+    border:1px solid rgba(199,164,106,.35);
+
+
+    box-shadow:
+    0 10px 30px rgba(109,26,54,.12);
+
+
+}
+
+
+
+
+/* TEXTO */
+
+
+.descripcion-vestimenta{
+
+
+    max-width:550px;
+
+    margin:auto;
+
+
+    padding:20px 30px;
+
+
+    line-height:1.9;
+
+
+    color:var(--gris);
+
+
+    font-size:17px;
+
+
+    background:rgba(248,244,236,.75);
+
+
+    backdrop-filter:blur(8px);
+
+
+    border-radius:25px;
+
+
+}
+
+
+
+
+/* OPCIONES */
+
+
+.vestimenta-opciones{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(2,1fr);
+
+
+    gap:30px;
+
+
+    margin-top:45px;
+
+
+}
+
+
+
+.vestimenta-item{
+
+
+    padding:30px;
+
+
+    background:rgba(248,244,236,.65);
+
+
+    backdrop-filter:blur(8px);
+
+
+    border-radius:35px;
+
+
+    border:1px solid rgba(199,164,106,.30);
+
+
+}
+
+
+
+.vestimenta-item i{
+
+
+    font-size:45px;
+
+    color:var(--vino);
+
+
+}
+
+
+
+.vestimenta-item h3{
+
+
+    font-family:"Cormorant Garamond",serif;
+
+
+    font-size:38px;
+
+
+    color:var(--vino);
+
+
+}
+
+
+
+.vestimenta-item p{
+
+
+    color:var(--gris);
+
+    line-height:1.8;
+
+}
+
+
+
+
+.decoracion-vestimenta{
+
+
+    margin-top:35px;
+
+    color:var(--vino);
+
+    font-size:25px;
+
+    letter-spacing:12px;
+
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:600px){
+
+
+.vestimenta-card{
+
+    padding:50px 25px;
+
+}
+
+
+.vestimenta-card h2{
+
+    font-size:42px;
+
+}
+
+
+.vestimenta-opciones{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
+
+.colores-evitar{
+
+    margin-top:25px;
+
+}
+
+.colores-evitar h4{
+
+    margin-bottom:20px;
+
+    color:var(--vino);
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.paleta-colores{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.color-item{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.color{
+
+    width:34px;
+
+    height:34px;
+
+    border-radius:50%;
+
+    border:2px solid rgba(199,164,106,.45);
+
+    box-shadow:0 6px 18px rgba(109,26,54,.12);
+
+}
+
+.color-item small{
+
+    margin-top:8px;
+
+    font-size:12px;
+
+    color:var(--gris);
+
+}
+
+
+.blanco{
+    background:#FFFFFF;
+}
+
+.gris{
+    background:#808080;
+}
+
+
+.azul{
+    background:var(--azul-claro);
 }
