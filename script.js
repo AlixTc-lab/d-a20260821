@@ -198,7 +198,6 @@ SOBRE
 ======================================================*/
 
 const sello = document.querySelector('.sello');
-const sobre = document.querySelector('.sobre');
 const intro = document.getElementById('intro');
 
 sello.addEventListener('click', () => {
