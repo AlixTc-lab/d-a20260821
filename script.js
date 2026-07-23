@@ -196,14 +196,44 @@ for(let i=0;i<160;i++){
 /*======================================================
 SOBRE
 ======================================================*/
+/*======================================================
+ABRIR INVITACIÓN
+======================================================*/
 
-const sello = document.querySelector('.sello');
-const intro = document.getElementById('intro');
 
-sello.addEventListener('click', () => {
-    sobre.classList.add('abrir');
-    
-    setTimeout(() => {
-        intro.classList.add('ocultar');
-    }, 1200); 
+const sello = document.getElementById(
+"abrirInvitacion"
+);
+
+
+const intro = document.getElementById(
+"intro"
+);
+
+
+const musica = document.getElementById(
+"bg-music"
+);
+
+
+
+sello.addEventListener(
+"click",
+function(){
+
+
+    // iniciar música
+
+    musica.play().catch(()=>{});
+
+
+
+    // cerrar pantalla inicial
+
+    intro.classList.add(
+        "ocultar"
+    );
+
+
 });
+
